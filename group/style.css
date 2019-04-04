@@ -1,0 +1,172 @@
+/* here starts the css file */
+
+body{
+  min-width: 600px;
+  font-family: 'Amatic SC', cursive;
+ }
+
+.basic {
+  background-image: url(images/foto.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20% 20%;
+  font-size: 20px;
+    
+}
+
+div {   
+  margin: 30px;
+}
+
+label {
+  display: block;
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+.contact {
+  width: 300px;
+  margin: auto;
+}
+
+.button h3{
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+}
+
+.jarparent {
+  text-align: center;
+}
+
+ul, .basic li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+li {
+  padding: 6px;
+}
+
+.lineup {
+  background-image: url(images/foto2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;}
+
+.saturday, .sunday {
+  color: #ffffff;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+}
+
+form {
+  border: #ffffff solid 1px;
+}
+
+.footer {
+  background-image: url(images/foto5.jpg);
+  background-size:cover;
+  background-position: bottom;
+}
+
+.low {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;  
+}
+
+.low a {
+  color: #ffffff;
+}
+
+/* Location Beginning */
+
+.navul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+/* map how to get to the event */
+
+.map {
+  width: 900px;
+  margin: auto;
+}
+
+.transport {
+  display: flex;
+  justify-content: space-around;
+  padding: 75px 75px;
+  margin: 1px 1px;
+  text-align: center;
+}
+
+/* here we have padding examples */
+
+.ferry {
+  background-image: url(images/ferry.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 50px 100px 120px 100px;
+}
+
+.subwaybus {
+  background-image: url(images/subway.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 50px 100px 120px 100px;
+  color: #ffffff
+}
+
+.mapheader {
+  background-color: blue;
+  text-align: center;
+}
+
+.horizon {
+  background-image: url('images/foto5.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+/* schedule Beginning */
+
+.first, .second {
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  flex: 1;
+  color: white;
+}
+
+.first {
+  background-image: url(images/foto4.jpg);
+  background-size: cover;
+}
+
+.second {
+  background-image: url(images/foto3.jpg);
+  background-size: cover;
+}
+
+
+.program {
+  display: flex;
+}
+
+h3 {
+  text-align: center}
